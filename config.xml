@@ -5,10 +5,10 @@
   id ="com.phonegap.example6"
   version ="1.0.0">
   
-  <name>app6 Batalla de puebla</name>
+  <name>app10 Dia de la tierra</name>
   
   <description>
-  aplicacion que muestra los DATOS del alumno
+  aplicacion que muestra los Eventos del dia de la tierra
  </description>
  
  <author href="https://build.phonegap.com" email="@gmail.com">
@@ -35,6 +35,6 @@
  
  <!-- Colocar icono app-->
  
- <icon src="res/android/mdpi.png"/>
+ <icon src="res/android/logo.png"/>
  
  </widget>
