@@ -1,0 +1,590 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Decima aplicacion</title>
+
+    <!--grupo CSS-->
+    <link rel="stylesheet" href="css/tema10.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="phonegap.js"></script>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/zaragoza.jpg','imagenes/defensa-.jpg','imagenes/fuetre gua.jpg','imagenes/descarga (2).jpg','imagenes/descarga.jpg','imagenes/images (2).jpg','imagenes/images (4).jpg','imagenes/images (6).jpg','imagenes/images (9).jpg')">
+
+      <div data-role="page" id="Principal" data-theme="a">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+           <h1>Dia mundial de la Tierra</h1>
+</div>
+          
+<div data-role="collapsible" data-content-theme="false">
+             <h1>Inico del Dia de la Tierra</h1>
+             <div>
+              <p>El 22 de abril de cada año se celebra el nacimiento del movimiento ambientalista moderno, el cual se inició en 1970 cuando 20 millones de norteamericanos tomaron las calles, los parques y los auditorios para manifestarse por un ambiente saludable y sustentable</p>
+              <p>El Día de la Tierra de 1970 logró una coincidencia política que parecía imposible. Ese día condujo a la creación de la Agencia de Protección al Medio Ambiente de Estados Unidos y a la aprobación de leyes relacionadas con el aire limpio, el agua limpia y la conservación de especies en peligro de extinci&amp;aocute;n. A partir de entonces, cada año en esta fecha, el mundo entero reflexiona y se moviliza por una Tierra mejor</p>
+              <br>
+             <img src="imagenes/descarga (4).jpg" width="295" height="171"> <img src="imagenes/eco.jpg" width="315" height="160"></div>
+          </div>
+          
+<div data-role="collapsible" data-content-theme="false">
+             <h1>Reflexion de los Problemas Ambientales</h1>
+             <div>
+              <p>Hasta este siglo pocos pensaron que los seres humanos, viviendo en una extensión de tierra aparentemente sin límites y con agua abundante, podrían causar daños irreparables al medio ambiente. Sin embargo hoy los gobiernos y la gente en general en todo el mundo luchan con la erosión costera, los derrames de petróleo y la contaminación del agua potable, en tanto que cuestiones como el crecimiento de la población, la deforestación, la lluvia ácida y la posibilidad de rápidos cambios climáticos significan decisiones difíciles para el futuro.
+
+En 1975 un grupo internacional de estudio reunido en Belgrado, Yugoslavia, propuso un marco de referencia mundial para la educación ambiental, el cual se llamó la "Carta de Belgrado". Esta Carta afirma que la meta de la educación ambiental es hacer que la población mundial se preocupe por el medio ambiente y tenga el conocimiento y la dedicación que la capacite para buscar soluciones a los problemas actuales y prevenir problemas nuevos.</p>
+              <br>
+             <img src="imagenes/images (17).jpg" width="225" height="225"><img src="imagenes/images (18).jpg" width="300" height="168"> <img src="imagenes/images (19).jpg" width="297" height="169"></div>
+          </div>
+          
+         <div data-role="main" class="ui-content">   
+<div>
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Día Internacional de la Madre Tierra
+22 de abril</h2>
+
+          </a>
+</li>
+         <li class="ui-first-child ui ui-last-child">
+            <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Dia de la Tierra</h2>
+
+           </a>
+</li>
+      
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Importancia del 22 de abril</h2>
+
+                </a>
+            </li>
+            
+             <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Día Internacional de la Biodiversidad</h2>
+
+                </a>
+            </li>
+            
+             <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Día Internacional de la Diversidad Biológica 
+22 de mayo</h2>
+
+                </a>
+            </li>
+            
+           <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Qué es la conciencia ecológica</h2>
+
+                </a>
+</li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>EL DESPERTAR DE LA CONCIENCIA ECOLÓGICA INTERNACIONAL</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>¿Qué es la conciencia ecológica?</h2>
+
+                </a>
+            </li>
+            
+             <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Datos del Desarrollador</h2>
+
+                </a>
+            </li>
+         
+           
+            <ul>
+            
+            
+            
+</div>
+          </div>
+          
+          <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/images_13.jpg" alt="images (13)" title="images (13)" id="wows1_0"/></li>
+		<li><img src="data1/images/images_14.jpg" alt="images (14)" title="images (14)" id="wows1_1"/></li>
+		<li><img src="data1/images/images_15.jpg" alt="images (15)" title="images (15)" id="wows1_2"/></li>
+		<li><img src="data1/images/images_16.jpg" alt="images (16)" title="images (16)" id="wows1_3"/></li>
+		<li><img src="data1/images/images_17.jpg" alt="images (17)" title="images (17)" id="wows1_4"/></li>
+		<li><img src="data1/images/images_18.jpg" alt="images (18)" title="images (18)" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/images.jpg" alt="bootstrap slider" title="images" id="wows1_6"/></a></li>
+		<li><img src="data1/images/tirra.jpg" alt="tirra" title="tirra" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="images (13)"><span><img src="data1/tooltips/images_13.jpg" alt="images (13)"/>1</span></a>
+		<a href="#" title="images (14)"><span><img src="data1/tooltips/images_14.jpg" alt="images (14)"/>2</span></a>
+		<a href="#" title="images (15)"><span><img src="data1/tooltips/images_15.jpg" alt="images (15)"/>3</span></a>
+		<a href="#" title="images (16)"><span><img src="data1/tooltips/images_16.jpg" alt="images (16)"/>4</span></a>
+		<a href="#" title="images (17)"><span><img src="data1/tooltips/images_17.jpg" alt="images (17)"/>5</span></a>
+		<a href="#" title="images (18)"><span><img src="data1/tooltips/images_18.jpg" alt="images (18)"/>6</span></a>
+		<a href="#" title="images"><span><img src="data1/tooltips/images.jpg" alt="images"/>7</span></a>
+		<a href="#" title="tirra"><span><img src="data1/tooltips/tirra.jpg" alt="tirra"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+          
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+             <div>
+              <img src="res/android/logo.png" width="32" height="32">
+            </div>
+          <div>
+             <h4>Aplicacion Diez</h4>
+             <h4>Cuidemos el planeta</h4>
+             <h4>Sebastian Rodriguez Cabrera</h4>
+           </div>
+         </div>
+        </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+              <h1>Día Internacional de la Madre Tierra
+22 de abril</h1>
+          </div>
+            <div data-role="content" align="center">
+              <div>
+                <h2></h2>
+                <p>Celebramos el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento.</p>
+                <p>Con esta celebración admitimos la responsabilidad colectiva, como nos recordaba la Declaración de Río de 1992, de fomentar la harmonía con la naturaleza y la Madre Tierra para alcanzar el equilibrio justo entre las necesidades económicas, sociales y medioambientales de las generaciones presentes y futuras.</p>
+                <p>Este día nos brinda la oportunidad de concienciar a todos los habitantes del planeta acerca de los problemas que afectan a la Tierra y a las diferentes formas de vida que en él se desarrollan.</p>
+               <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/descarga (2).jpg',1)"><img src="imagenes/descarga (1).jpg" width="300" height="168" id="Image2"></a> </div>
+            </div>
+            
+            <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/images_5.jpg" alt="images (5)" title="images (5)" id="wows2_0"/></li>
+		<li><img src="data2/images/images_6.jpg" alt="images (6)" title="images (6)" id="wows2_1"/></li>
+		<li><img src="data2/images/images_7.jpg" alt="images (7)" title="images (7)" id="wows2_2"/></li>
+		<li><img src="data2/images/images_8.jpg" alt="images (8)" title="images (8)" id="wows2_3"/></li>
+		<li><img src="data2/images/images_9.jpg" alt="images (9)" title="images (9)" id="wows2_4"/></li>
+		<li><img src="data2/images/images_10.jpg" alt="images (10)" title="images (10)" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data2/images/images_11.jpg" alt="bootstrap slider" title="images (11)" id="wows2_6"/></a></li>
+		<li><img src="data2/images/images_12.jpg" alt="images (12)" title="images (12)" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="images (5)"><span><img src="data2/tooltips/images_5.jpg" alt="images (5)"/>1</span></a>
+		<a href="#" title="images (6)"><span><img src="data2/tooltips/images_6.jpg" alt="images (6)"/>2</span></a>
+		<a href="#" title="images (7)"><span><img src="data2/tooltips/images_7.jpg" alt="images (7)"/>3</span></a>
+		<a href="#" title="images (8)"><span><img src="data2/tooltips/images_8.jpg" alt="images (8)"/>4</span></a>
+		<a href="#" title="images (9)"><span><img src="data2/tooltips/images_9.jpg" alt="images (9)"/>5</span></a>
+		<a href="#" title="images (10)"><span><img src="data2/tooltips/images_10.jpg" alt="images (10)"/>6</span></a>
+		<a href="#" title="images (11)"><span><img src="data2/tooltips/images_11.jpg" alt="images (11)"/>7</span></a>
+		<a href="#" title="images (12)"><span><img src="data2/tooltips/images_12.jpg" alt="images (12)"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+            
+            <div class="ui-content" align="center">
+<div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.un.org/es/events/motherearthday/" data-role="button" id="beep">
+    <h2>mas</h2>
+   </a>
+  </li>
+ <li class="ui-first-child ui-last-child">
+  <a href="https://blogs.un.org/es/2016/11/23/para-que-sirven-los-dias-internacionales/" data-role="button" id="vibrar">
+   <h2>mas</h2>
+  </a>
+ </li>
+</ul>
+</div>
+</div>
+            
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+              <img src="res/android/logo.png" width="32" height="32">
+            </div>
+            <div>
+               <h4>Cuidemos el planeta</h4>
+               <h4>Aplicacion Diez, SRC</h4>
+            </div>
+           </div>
+</div>
+          
+          
+          
+            
+            
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>Dia de la Tierra</h1>
+              </div>
+            <div data-role="content" align="center">
+              <div>
+                 <h2>Tierra</h2>
+                <p>El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.</p>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/descarga.jpg',1)"><img src="imagenes/descarga (3).jpg" width="224" height="225" id="Image3"></a> </div>
+            </div>
+            
+            <div data-role="collapsible" data-content-theme="false">
+             <h1>Historia</h1>
+             <div>
+              <p>En 1968, Morton Hilbert y el U.S. Public Health Service (Servicio de Salud Pública de E.E.U.U.), organizaron el Simposio de Ecología Humana, se realiza una conferencia por los nombrados anteriormente para una asamblea o conferencia medioambiental para que estudiantes escucharan a científicos hablar sobre los efectos del deterioro ambiental en la salud humana.2 Este fue el primer antecedente del Día de la Tierra. Durante los siguientes dos años, Hilbert y sus estudiantes trabajaron para planear el primer Día de la Tierra.3 Surgieron otros esfuerzos como Survival Project (Proyecto para la Supervivencia), uno de los primeros eventos educacionales de conciencia ambiental, que fue llevado a cabo en la Universidad Northwestern el 23 de enero de 1970. Este fue el primero de varios eventos realizados en campus universitarios por todo Estados Unidos. Así mismo, Ralph Nader empezó a hablar acerca de la importancia de la ecología en 1970.</p>           
+<br>
+<img src="imagenes/images (29).jpg" width="299" height="168"><img src="imagenes/images (28).jpg" width="225" height="225"> </div>
+          </div>
+          
+          <div data-role="collapsible" data-content-theme="false">
+             <h1>Primera Manifestacion</h1>
+             <div>
+              <p>La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senador y activista ambiental Gaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dos mil universidades, diez mil escuelas (primarias y secundarias) y centenares de comunidades. La presión social tuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyes destinadas a la protección del medio ambiente.</p>   
+<br>
+<img src="imagenes/images (27).jpg" width="192" height="168"> <img src="imagenes/images (26).jpg" width="227" height="222"><img src="imagenes/images (25).jpg" width="225" height="225"></div>
+          </div>
+          
+          <div data-role="collapsible" data-content-theme="false">
+             <h1>Conferencias</h1>
+             <div>
+              <p>En 1972 se celebró la primera conferencia internacional sobre el medio ambiente. La Cumbre de la Tierra de Estocolmo cuyo objetivo fue sensibilizar a los líderes mundiales sobre la magnitud de los problemas ambientales.
+
+Actualmente esta celebración, esta siendo opacada en Los Estados Unidos de America, por Donald John Trump; así como lo ha hecho con diversos programas relacionados, en el corto tiempo que lleva en la presidencia de dicho país.</p>          
+<br>
+<img src="imagenes/images (24).jpg" width="183" height="275"><img src="imagenes/images (23).jpg" width="301" height="168"><img src="imagenes/descarga (4).jpg" width="295" height="171"> </div>
+          </div>
+            
+            <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Tierra" data-role="button" id="beep">
+    <h2>Mas</h2>
+   </a>
+  </li>
+ <li class="ui-first-child ui-last-child">
+  <a href="https://es.wikipedia.org/wiki/Bandera_de_la_Tierra" data-role="button" id="vibrar">
+   <h2>Mas</h2>
+  </a>
+ </li>
+</ul>
+</div>
+</div>
+            
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+              <img src="res/android/logo.png" width="32" height="32">
+            </div>
+            <div>
+               <h4>Cuidemos el planeta</h4>
+               <h4>Aplicacion Diez, SRC</h4>
+            </div>
+           </div>
+</div>
+              
+              
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Importancia del 22 de abril</h1>
+                </div>
+<div data-role="content" align="center">
+                   <div>
+                      <h2>Importancia</h2>
+                      <p>Gaylord Nelson escogió la fecha de tal manera que se maximizara la participación en las universidades, ya que lo consideraba un encuentro entre maestros y alumnos. Determinó que la semana del 19 al 25 de abril era la mejor apuesta, ya que esta no coincidía con los exámenes o las vacaciones de primavera.8 Más aún, esta fecha no tenía ningún conflicto con celebraciones religiosas como la Pascua o el Pésaj, y era demasiado tarde en primavera para tener un clima decente. Más estudiantes preferirían estar en clase y habría menos competencia con otros eventos de media semana –así que eligió el miércoles 22 de abril. El día también coincidió con el aniversario del natalicio de John Muir, notable conservacionista.</p> 
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/images (2).jpg',1)"><img src="imagenes/images (1).jpg" width="305" height="165" id="Image4"></a> </div>
+                </div>
+                 <div data-role="collapsible" data-content-theme="false">
+             <h1>Posible conflicto</h1>
+             <div>
+              <p>Sin el conocimiento de Nelson,9 el 22 de abril de 1970 fue, por coincidencia, el centésimo aniversario del natalicio de Lenin, cuando se trasladó al calendario gregoriano, el cual fue adoptado por los rusos hasta 1918. La revista Time reportó que muchos no pensaron que la fecha fuera una coincidencia, sino una pista de que el evento fue un “engaño comunista”, y citaron a un miembro de Daughters of the American Revolution, diciendo: “elementos subversivos planean hacer que los niños americanos vivan en un ambiente que sea bueno para ellos”.10 John Edgar Hoover, director del Buró Federal de Investigaciones, pudo haber creado la intriga de la conexión con Lenin, ya que se presumía que el FBI llevaba a cabo tareas de vigilancia en las manifestaciones de 1970.11 La idea de que la fecha fuera escogida para celebrar el centenario de Lenin, aún persiste en algunos cuarteles.</p> 
+<br>
+<img src="imagenes/eco.jpg" width="315" height="160"><img src="imagenes/images (22).jpg" width="230" height="219"> <img src="imagenes/images (21).jpg" width="298" height="169"></div>
+          </div>
+                 
+                  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+              <img src="res/android/logo.png" width="32" height="32">
+            </div>
+            <div>
+               <h4>Cuidemos el planeta</h4>
+               <h4>Aplicacion Diez, SRC</h4>
+            </div>
+           </div>
+</div>
+                 
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Día Internacional de la Biodiversidad</h1>
+                 </div>
+<div data-role="content" align="center">
+                   <div>
+                      <h2>Biodiversidad</h2>
+                      <p>Las Naciones Unidas proclamaron el 22 de mayo como día Internacional de la Diversidad Biológica, fecha que es celebrada en Venezuela con un honroso décimo lugar en todo el planeta, con la mayor variedad de animales, plantas y ecosistemas.</p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/images (4).jpg',1)"><img src="imagenes/images (3).jpg" width="348" height="145" id="Image5"></a> </div>
+                    </div>
+                     
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Significado de Biodiversidad</h1>
+             <div>
+              <p>Biodiversidad significa variedad de vida, tanto de los ecosistemas como de especies e individuos, incluidos todos los tipos de vida. La biodiversidad es el producto de los procesos evolutivos de los seres vivos.</p>
+<br>
+<img src="imagenes/images (20).jpg" width="224" height="224"><img src="imagenes/images (19).jpg" width="297" height="169"> <img src="imagenes/bio.jpg" width="259" height="194"></div>
+          </div>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.ine.gob.ve/index.php?option=com_content&view=article&id=114:22-de-mayo-dia-internacional-de-la-biodiversidad&catid=107:efemerides-&Itemid=48" data-role="button" id="beep">
+    <h2>Mas Infomarmacion</h2>
+   </a>
+  </li>
+</ul>
+</div>
+
+                 </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+              <img src="res/android/logo.png" width="32" height="32">
+            </div>
+            <div>
+               <h4>Cuidemos el planeta</h4>
+               <h4>Aplicacion Diez, SRC</h4>
+            </div>
+           </div>
+                 </div>
+                 
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Día Internacional de la Diversidad Biológica 
+22 de mayo</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2><span id="Condecoraciones">Biodiversidad y turismo sostenible</span></h2>
+                      <p>La diversidad de especies, ecosistemas y paisajes atrae al turismo y fomenta el crecimiento económico. A su vez, un sector turístico bien gestionado contribuye de manera significativa a proteger la flora y la fauna, incluso a aumentar las poblaciones de determinadas especies claves, además de concienciar acerca del valor de la biodiversidad a través de los ingresos que genera el turismo.</p>
+
+<p>La celebración del Día Internacional para la Diversidad Biológica nos brinda la oportunidad de resaltar los beneficios que el turismo sostenible tiene para el crecimiento económico, así como para la conservación y el uso sostenible de la biodiversidad.
+
+Este vínculo entre biodiversidad y turismo sostenible coincide con la declaración de 2017 como el Año Internacional del Turismo Sostenible para el Desarrollo.</p>  
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/images (6).jpg',1)"><img src="imagenes/images (5).jpg" width="273" height="185" id="Image6"></a> </div>
+                 </div>
+                 
+                 <div data-role="collapsible" data-content-theme="false">
+             <h1>¿Por qué un Día Internacional para la Diversidad Biológica?</h1>
+             <div>
+              <p>Si bien cada vez somos más conscientes de que la diversidad biológica en un bien mundial de gran valor para las generaciones presentes y futuras, el número de especies disminuye a un gran ritmo debido a la actividad humana.
+
+La Convenio sobre la Diversidad Biológica Documento PDF es el instrumento internacional para «la conservación de la diversidad biológica, la utilización sostenible de sus componentes y la participación justa y equitativa en los beneficios que se deriven de la utilización de los recursos genéticos», que ha sido ratificado por 196 países.</p>
+<br>
+<img src="imagenes/images (18).jpg" width="300" height="168"> <img src="imagenes/images (17).jpg" width="225" height="225"><img src="imagenes/images (16).jpg" width="320" height="157"></div>
+          </div>
+                 
+                 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+              <img src="res/android/logo.png" width="32" height="32">
+            </div>
+            <div>
+               <h4>Cuidemos el planeta</h4>
+               <h4>Aplicacion Diez, SRC</h4>
+            </div>
+           </div>
+</div>
+                 
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Qué es la conciencia ecológica</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2><span id="Condecoraciones">Conciencia Ecológica</span></h2>
+                      <p>Qué es la conciencia ecológica. A partir del momento en que el hombre comenzó a apropiarse de la naturaleza para darle forma a sus necesidades y caprichos, los ecosistemas de todo el planeta dieron su respuesta ante este tipo de abusos, a través de consecuencias negativas como la contaminación y la pérdida de biodiversidad.</p>
+
+<p>Hoy en día podemos conocer, a través de los medios de comunicación, todas las noticias referentes al cambio climático. Pero ante la inevitable realidad ¿cuántos de nosotros nos sentimos responsables -y actuamos en consecuencia- por los daños que estamos causando al planeta?
+
+Justamente, tener conciencia ecológica es entender que somos dependientes de la naturaleza y responsables por su estado de conservación. Ignorar esta verdad equivale a autodestruirnos, porque al degradar el medio ambiente estamos empeorando nuestra calidad de vida y poniendo en peligro el futuro de nuestros descendientes.</p>  
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/images (9).jpg',1)"><img src="imagenes/images (8).jpg" width="404" height="125" id="Image7"></a> </div>
+</div>
+
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.ocio.net/estilo-de-vida/ecologismo/que-es-la-conciencia-ecologica/" data-role="button" id="beep">
+    <h2>Mas Infomarmacion</h2>
+   </a>
+  </li>
+</ul>
+</div>
+</div>
+                   
+                 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+              <img src="res/android/logo.png" width="32" height="32">
+            </div>
+            <div>
+               <h4>Cuidemos el planeta</h4>
+               <h4>Aplicacion Diez, SRC</h4>
+            </div>
+           </div>
+</div>
+                 
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>EL DESPERTAR DE LA CONCIENCIA ECOLÓGICA INTERNACIONAL</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2><span id="Condecoraciones">DESPERTAR</span></h2>
+                      <p>Hoy en día, la mayoría de la gente, si no tiene una verdadera conciencia ecológica, por lo menos conoce los daños que el ser humano causa en la atmósfera y el medioambiente. Si bien la palabra Ecología fue inventada en 1866 por el alemán Ernst Haeckel (1), el fomento de una conciencia ecológica global no apareció de la nada, sino que es el resultado de un largo proceso de modificación de la visión del mundo sobre la naturaleza, que nació en las décadas 1960-1970.</p>
+                   </div>
+  </div>
+  
+                     
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Significado de Biodiversidad</h1>
+             <div>
+              <p>Biodiversidad significa variedad de vida, tanto de los ecosistemas como de especies e individuos, incluidos todos los tipos de vida. La biodiversidad es el producto de los procesos evolutivos de los seres vivos.</p>          
+<br>
+<img src="imagenes/images (15).jpg" width="384" height="131"><img src="imagenes/images (11).jpg" width="299" height="169" alt=""> </div>
+          </div>
+                     
+                      <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.ine.gob.ve/index.php?option=com_content&view=article&id=114:22-de-mayo-dia-internacional-de-la-biodiversidad&catid=107:efemerides-&Itemid=48" data-role="button" id="beep">
+    <h2>Mas Infomarmacion</h2>
+   </a>
+  </li>
+</ul>
+</div>
+</div>
+                       
+
+                 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+              <img src="res/android/logo.png" width="32" height="32">
+            </div>
+            <div>
+               <h4>Cuidemos el planeta</h4>
+               <h4>Aplicacion Diez, SRC</h4>
+            </div>
+           </div>
+                 </div>
+                 
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>¿Qué es la conciencia ecológica?</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2><span id="Condecoraciones">Conciencia Ecológica</span></h2>
+                      <p>Se trata de la idea de proteger los espacios naturales, que estos sean un valor fundamental para la vida y que sea el ser humano el que se comprometa a protegerlos, porque es este el responsable de los daños causados en los ecosistemas. Dicho así, la existencia de tal conciencia parece natural. Pero esta conciencia apareció en un contexto global preciso, esto es, en los países desarrollados de la OCDE (Organización para la Cooperación y el Desarrollo Económicos). Esto explica que la ecología se transformara en un asunto de debate y de reflexión internacional en la sociedad civil y en las esferas políticas.</p>  
+                      <br>
+                      <img src="imagenes/images (4).jpg" width="317" height="159">
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.iepe.org/2013/11/el-despertar-de-la-conciencia-ecologica-internacional/" data-role="button" id="beep">
+    <h2>Mas Infomarmacion</h2>
+   </a>
+  </li>
+</ul>
+</div>
+</div>
+                      
+                   </div>
+                 </div>
+                 
+                <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+              <img src="res/android/logo.png" width="32" height="32">
+            </div>
+            <div>
+               <h4>Cuidemos el planeta</h4>
+               <h4>Aplicacion Diez, SRC</h4>
+            </div>
+           </div>
+</div>                 
+
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Datos del Desarrollador</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2><span id="Condecoraciones">Nombre</span></h2>
+                      <p>Sebastian Rodriguez Cabrera</p>
+                      <h2>Grado y Grupo</h2>
+                      <p>4 E
+                      <h2>Especialidad</h2>
+                      <p>Programacion</p>
+                      <h2>Submodulos</h2>
+                      <p>Desarrollo de aplicaciones Web</p>
+                      <h2>Docente</h2>
+                      <p>Lic.Jose Antonio Gomez Hernandez</p>
+                      <p><br>
+                      </p>
+                   </div>
+                 </div>
+                 
+                <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+              <img src="res/android/logo.png" width="32" height="32">
+            </div>
+            <div>
+               <h4>Cuidemos el planeta</h4>
+               <h4>Aplicacion Diez, SRC</h4>
+            </div>
+           </div>
+</div>
+                 
+</body>
+</html>
